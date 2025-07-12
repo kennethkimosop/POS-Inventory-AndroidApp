@@ -13,6 +13,10 @@ A simple Android Point-of-Sale (POS) app built with Java. It features:
 - Android SDK
 - XML for UI design
 
+## 📱 App Screenshot
+
+![App Screenshot](screenshot.png)
+
 
 ## License
 MIT License
