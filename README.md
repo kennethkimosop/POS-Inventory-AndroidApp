@@ -1,5 +1,4 @@
 ﻿# POS inventory Android App built with Java
-# POS Inventory Android App
 
 A simple Android Point-of-Sale (POS) app built with Java. It features:
 
