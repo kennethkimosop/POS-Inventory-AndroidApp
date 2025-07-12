@@ -38,139 +38,146 @@
 
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:stretchColumns="1,2"
+            android:layout_height="299dp"
             android:background="@android:color/white"
+            android:elevation="4dp"
             android:padding="8dp"
-            android:elevation="4dp">
+            android:stretchColumns="1,2">
 
             <TableRow>
 
-                <Button
-                    android:id="@+id/button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Button" />
-
                 <TextView
+                    android:background="#4CAF50"
+                    android:padding="8dp"
                     android:text="ITEM"
-                    android:textStyle="bold"
-                    android:padding="8dp" />
+                    android:textStyle="bold" />
+
                 <TextView
+                    android:background="#4CAF50"
+                    android:padding="8dp"
                     android:text="QNTY"
-                    android:textStyle="bold"
-                    android:padding="8dp" />
-
-                <EditText
-                    android:id="@+id/editTextTextPassword"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPassword" />
+                    android:textStyle="bold" />
 
                 <TextView
+                    android:background="#4CAF50"
+                    android:padding="8dp"
                     android:text="TOTAL"
-                    android:textStyle="bold"
-                    android:padding="8dp" />
+                    android:textStyle="bold" />
             </TableRow>
 
             <!-- Item Rows -->
             <TableRow>
+
                 <Button
                     android:id="@+id/btnBread"
-                    android:text="BREAD"
                     android:backgroundTint="#90CAF9"
-                    android:textColor="@android:color/white"
-                    android:padding="8dp" />
+                    android:padding="8dp"
+                    android:text="BREAD"
+                    android:textColor="@android:color/white" />
+
                 <TextView
                     android:id="@+id/qntyBread"
-                    android:text="0"
-                    android:padding="8dp" />
+                    android:padding="8dp"
+                    android:text="0" />
+
                 <TextView
                     android:id="@+id/totalBread"
-                    android:text="0"
-                    android:padding="8dp" />
+                    android:padding="8dp"
+                    android:text="0" />
             </TableRow>
 
             <TableRow>
+
                 <Button
                     android:id="@+id/btnMilk"
-                    android:text="MILK"
                     android:backgroundTint="#90CAF9"
-                    android:textColor="@android:color/white"
-                    android:padding="8dp" />
+                    android:padding="8dp"
+                    android:text="MILK"
+                    android:textColor="@android:color/white" />
+
                 <TextView
                     android:id="@+id/qntyMilk"
-                    android:text="0"
-                    android:padding="8dp" />
+                    android:padding="8dp"
+                    android:text="0" />
+
                 <TextView
                     android:id="@+id/totalMilk"
-                    android:text="0"
-                    android:padding="8dp" />
+                    android:padding="8dp"
+                    android:text="0" />
             </TableRow>
 
             <TableRow>
+
                 <Button
                     android:id="@+id/btnSugar"
-                    android:text="SUGAR"
                     android:backgroundTint="#90CAF9"
-                    android:textColor="@android:color/white"
-                    android:padding="8dp" />
+                    android:padding="8dp"
+                    android:text="SUGAR"
+                    android:textColor="@android:color/white" />
+
                 <TextView
                     android:id="@+id/qntySugar"
-                    android:text="0"
-                    android:padding="8dp" />
+                    android:padding="8dp"
+                    android:text="0" />
+
                 <TextView
                     android:id="@+id/totalSugar"
-                    android:text="0"
-                    android:padding="8dp" />
+                    android:padding="8dp"
+                    android:text="0" />
             </TableRow>
 
             <TableRow>
+
                 <Button
                     android:id="@+id/btnTissue"
-                    android:text="TISSUE"
                     android:backgroundTint="#90CAF9"
-                    android:textColor="@android:color/white"
-                    android:padding="8dp" />
+                    android:padding="8dp"
+                    android:text="TISSUE"
+                    android:textColor="@android:color/white" />
+
                 <TextView
                     android:id="@+id/qntyTissue"
-                    android:text="0"
-                    android:padding="8dp" />
+                    android:padding="8dp"
+                    android:text="0" />
+
                 <TextView
                     android:id="@+id/totalTissue"
-                    android:text="0"
-                    android:padding="8dp" />
+                    android:padding="8dp"
+                    android:text="0" />
             </TableRow>
 
             <!-- Grand Total -->
             <TableRow>
+
                 <TextView
+                    android:padding="8dp"
                     android:text="GRAND TOTAL"
-                    android:textStyle="bold"
-                    android:padding="8dp" />
+                    android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/grandTotal"
-                    android:text="0"
                     android:padding="8dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black" />
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
             </TableRow>
         </TableLayout>
 
         <!-- RESET Button -->
+
+        <!-- POS SYSTEM SECTION -->
+
         <Button
             android:id="@+id/resetButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="RESET"
-            android:backgroundTint="#FF5252"
-            android:textColor="@android:color/black"
-            android:layout_marginTop="24dp"
             android:layout_gravity="center_horizontal"
-            android:padding="12dp" />
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#FF5252"
+            android:padding="12dp"
+            android:text="RESET"
+            android:textColor="@android:color/black" />
 
-        <!-- POS SYSTEM SECTION -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -188,10 +195,26 @@
             android:elevation="2dp">
 
             <TableRow>
-                <TextView android:text="Item" android:textStyle="bold" />
-                <TextView android:text="Unit Price" android:textStyle="bold" />
-                <TextView android:text="Quantity" android:textStyle="bold" />
-                <TextView android:text="Total" android:textStyle="bold" />
+
+                <TextView
+                    android:background="#4CAF50"
+                    android:text="Item"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:background="#4CAF50"
+                    android:text="Unit Price"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:background="#4CAF50"
+                    android:text="Quantity"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:background="#4CAF50"
+                    android:text="Total"
+                    android:textStyle="bold" />
             </TableRow>
 
             <TableRow>
